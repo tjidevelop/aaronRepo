@@ -1,0 +1,27 @@
+==========================================================================================
+                 Portfilo Theme Change Log
+==========================================================================================
+Version 1.0.18 - Released 05 Feb 2016
+-----------------------------------
+	- Minor change in header-slider.php
+	- Added buttons in customizer 
+
+Version 1.0.17 - Released 19 Oct 2015
+-----------------------------------
+	- Solved error in header.php 
+	
+Version 1.0.16 - Released 05 Oct 2015
+-----------------------------------
+* Responsive Design: Tablet and Mobile Optimized
+* Touch-Swipe Enabled
+* Real-Time Theme Customizer
+* Support for Web Fonts
+* Built with HTML5 and CSS3
+* SEO Optimized
+* Well organized, commented & clean code
+* Cross-Browser Compatibility
+* Translatable
+* Includes the Font Awesome icon set
+* Compatible with popular plugins
+* Child Theme Support for Advanced Users
+* Powered by Bootstrap

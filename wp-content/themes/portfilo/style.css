@@ -1,0 +1,283 @@
+/*
+Theme Name: Portfilo
+Theme URI: http://portfilo.projectsdemo.net/
+Author: August Infotech
+Author URI: http://www.augustinfotech.com/
+Version: 1.0.18
+Text Domain: portfilo
+Description: Portfilo is a responsive theme designed for businesses to help implement their online presence along with blog. With the help of recommended free plugins, you can showcase your portfolio and testimonials on the website. Theme provides customizer options to change look and feel of your website. Theme provides options to change logo, favicon, color scheme, tyapography, etc. It supports popular plugins like BuddyPress, WooCommerce and WPML. Portfilo theme is translatable so that you can easily localize it in the language you want.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black,gray,red,responsive-layout,one-column,two-columns,left-sidebar,right-sidebar,custom-colors,custom-menu,featured-images,full-width-template,theme-options,threaded-comments,translation-ready
+
+	Portfilo is a full featured WordPress Theme
+    Copyright (C) 2015 August Infotech
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+.gallery-caption {}
+.commentlist .bypostauthor {}
+
+/* ---------------- Misc HTML tags ---------------- */
+
+address {
+	font-size: 1.00em;
+	font-style: italic;
+}
+
+blockquote, blockquote p {
+	font-style: italic;
+	margin-left: 1em;
+	font-weight: 600;
+	line-height: 1.5em;
+	vertical-align: bottom;
+}
+
+blockquote p:before {
+	font-family: FontAwesome;
+	content:'\f10d';
+	font-size: 0.75em;
+	line-height: 1.5em;
+	padding: 0 0.5em 0 0;
+	color: #c9c9c9;
+	vertical-align: top;
+}
+
+pre {
+	border-radius: 10px;
+	border: solid 5px gray;
+    font-size: 1em;
+    color: blue;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    background: #F7F4F4;
+    overflow-x: auto;
+}
+
+code {
+	font-size: 1em;
+	background: rgba(0,0,0,0.1);
+}
+
+q{font-style: italic;}
+
+q:before, q:after { content:'"'; }
+
+
+/* --------------definition list ------------------- */
+
+dt {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+dl {
+	margin: 0;
+	padding: 0;
+	font-size: 1.0em;
+}
+
+dd {
+	font-size: 1em;
+	margin-left: 1em;
+}
+
+/* ------------------table styles --------------------- */
+
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+	font-size: 1em;
+}
+
+thead {
+	font-weight: bold;
+	text-align: center;
+}
+
+th {
+	border: 1px solid #7F7F7F;
+	padding: 0.625em;
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.2);
+}
+
+tfoot {
+	background-color: #E3E3E3;
+	background-color: rgba(165,149,149,0.3);
+	font-weight: bold;
+}
+
+tbody {
+	text-align: left;
+}
+
+tr {
+	padding: 0.625em;
+}
+
+td {
+	border: 1px solid #7F7F7F;
+	padding: 0.625em;
+	text-align: left;
+}
+
+/* ---------------- thumbnail style ---------------- */ 
+
+.size-thumbnail { width: auto !important; }
+
+/* --------- sticky class --------- */
+
+.sticky h2.post-title:after
+{
+	float: right;
+	font-size: 0.5em;
+	font-family: FontAwesome;
+	color: #727272;
+	content: "\f08d";
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 0;
+}
+
+.sticky .aside-entry:before
+{
+	float: right;
+	font-size: 0.875em;
+	font-family: FontAwesome;
+	color: #727272;
+	content: "\f08d";
+	padding: 0 10px 0 10px;
+	margin: -10px -10px 0 0;
+}
+
+.sticky .status-entry:before
+{
+	float: right;
+	font-size: 0.875em;
+	font-family: FontAwesome;
+	color: #727272;
+	content: "\f08d";
+	padding: 0 10px 0 10px;
+	margin: -10px -10px 0 0;
+}
+
+/* -------------------------------------- Pagination ------ */
+
+.postpagenav {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 0;
+}
+
+.next_page {
+  display: inline-block;
+  float: right;
+}
+
+.postpagenav ul li { list-style: none; }
+
+/* ---- WordPress alignment classes ---- */
+
+.alignleft,.wp-caption.alignleft {
+  float: left;
+  padding: 0 20px 20px 0;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  text-align: center;
+}
+
+.alignright,.wp-caption.alignright {
+  float: right;
+  padding: 0 0 20px 20px;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  text-align: center;
+}
+
+.aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  text-align: center;
+}
+
+.alignnone {
+  margin-right: 1em;
+  opacity: 1 !important;
+  transform: scale(1) !important;
+}
+
+.size-full { width: auto !important;}
+img.size-full{ 
+  opacity: 1 !important;
+  transform: scale(1) !important;
+  margin: 10px 0 0;
+}
+
+/* ----------------- post meta bottom ------------------------ */
+
+.postmetabottom {
+	float: right;
+}
+
+/* --------- captioned class --------- */
+
+.wp-caption {
+	max-width: 100%;
+}
+
+/* captioned image border override */
+.wp-caption.border {
+	max-width: 98%!important;
+	height: auto!important;
+	border: 8px solid white!important;
+	border-radius: 5px!important;
+	box-shadow: 0px 0px 5px 0 rgba(72,72,72,0.25)!important;
+	padding: 0!important;
+	margin-top: 0.625em!important;
+	margin-bottom: 0.625em!important;
+}
+
+.wp-caption img {
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+
+.post-content .wp-caption p {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-caption-text {
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  font-size: 1em;
+  font-style: italic;
+  background: #eee;
+  padding: 5px !important;
+  position: relative;
+  top: -5px;
+  color: #666;
+}
+
